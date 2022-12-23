@@ -1,0 +1,24 @@
+{
+  "name": "redis-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inedx.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testgitaavaa/redis-wrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testgitaavaa/redis-wrapper/issues"
+  },
+  "homepage": "https://github.com/testgitaavaa/redis-wrapper#readme",
+  "dependencies": {
+    "redis": "^4.5.1"
+  }
+}
