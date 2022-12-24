@@ -1,4 +1,4 @@
 # redis-wrapper
 --- 
 
-Added new wrapper for connect to redis 
+### Use the utils to Set and get Data from redis 
