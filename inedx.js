@@ -12,8 +12,20 @@ import { createClient } from 'redis';
     
     await client.connect();
     
-    await client.set('key', 'value');
-    const value = await client.get('key');
+    
+
+    const setKey = async (client , key , value) => {
+        await client.set(key, value);
+    }
+
+    await setKey(client, 'HI', 'test value');
+
+    const getKey = async(client , key) => {
+        return await client.get(key);
+    }
+
+    const value = await getKey(client,'HI');
+    
     await client.disconnect();
     console.log("disconnect")
 })();
